@@ -301,8 +301,6 @@ h6 {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-
-
 .overlay-imgOwner {
     position: absolute;
     bottom: 0;
@@ -434,16 +432,13 @@ ul.timeline>li:before {
 
 /* Media */
 
+@media (max-width: 460px) {
+    .hide-on-small-screen {
+        display: none;
+    }
+}
+
 @media (max-width: 576px) {
-
-    /* Carousel */
-    .carousel-caption h1 {
-        font-size: 12px;
-    }
-
-    .carousel-caption p {
-        font-size: 8px;
-    }
 
     /* Header */
     .header-text1 {
@@ -454,17 +449,6 @@ ul.timeline>li:before {
         font-size: 24px;
     }
 }
-
-@media (max-width: 768px) {
-    .carousel-caption h1 {
-        font-size: 20px;
-    }
-
-    .carousel-caption p {
-        font-size: 14px;
-    }
-}
-
 
 @media (min-width: 1401px) {
     .container-cvButton-custom {
