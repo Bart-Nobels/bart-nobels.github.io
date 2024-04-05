@@ -108,7 +108,7 @@ h6 {
 
 /* Header */
 #home {
-    background-image: url(/images/Header/header-woods1.jpg);
+    background-image: url(../images/Header/header-woods1.jpg);
     background-size: cover;
     background-position: center;
     height: fit-content;
@@ -148,15 +148,6 @@ h6 {
     animation: text2 3s 1;
 }
 
-@media screen and (max-width: 576px) {
-    .header-text1 {
-        font-size: 68px;
-    }
-
-    .header-text2 {
-        font-size: 36px;
-    }
-}
 
 @keyframes text {
     0% {
@@ -276,7 +267,7 @@ h6 {
 /* Interests */
 
 #interests {
-    background-image: url(/images/Background/background-woods1.jpg);
+    background-image: url(../images/Background/background-woods1.jpg);
     background-size: cover;
     background-position: center;
     height: fit-content;
@@ -310,25 +301,6 @@ h6 {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-@media screen and (max-width: 768px) {
-    .carousel-caption h1 {
-        font-size: 20px;
-    }
-
-    .carousel-caption p {
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .carousel-caption h1 {
-        font-size: 16px;
-    }
-
-    .carousel-caption p {
-        font-size: 12px;
-    }
-}
 
 
 .overlay-imgOwner {
@@ -395,7 +367,7 @@ ul.timeline>li:before {
 /* Experience */
 
 #experience {
-    background-image: url(/images/Background/background-woods1.jpg);
+    background-image: url(../images/Background/background-woods1.jpg);
     background-size: cover;
     background-position: center;
     height: fit-content;
@@ -438,11 +410,7 @@ ul.timeline>li:before {
     font-family: 'Audiowide', sans-serif;
 }
 
-@media (min-width: 1401px) {
-    .container-cvButton-custom {
-        text-align: center;
-    }
-}
+
 
 /* End Contact */
 
@@ -450,7 +418,7 @@ ul.timeline>li:before {
 /* Footer */
 
 #footer {
-    background-image: url(/images/Background/background-woods1.jpg);
+    background-image: url(../images/Background/background-woods1.jpg);
     background-size: cover;
     background-position: center;
     height: fit-content;
@@ -462,3 +430,44 @@ ul.timeline>li:before {
 }
 
 /* End Footer */
+
+
+/* Media */
+
+@media (max-width: 576px) {
+
+    /* Carousel */
+    .carousel-caption h1 {
+        font-size: 12px;
+    }
+
+    .carousel-caption p {
+        font-size: 8px;
+    }
+
+    /* Header */
+    .header-text1 {
+        font-size: 48px;
+    }
+
+    .header-text2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
+
+    .carousel-caption p {
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width: 1401px) {
+    .container-cvButton-custom {
+        text-align: center;
+    }
+}
