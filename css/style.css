@@ -149,20 +149,20 @@ h6 {
     animation: text2 4s 1;
 }
 
-.icons-text-home {
+.iconsHome-text {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.icons-text-home div {
+.iconsHome-text div {
     margin-top: 5px;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
 }
 
-.icons-text-home svg {
+.iconsHome-text svg {
     margin-right: 10px;
     flex-shrink: 0;
     background-color: #031633;
@@ -172,12 +172,12 @@ h6 {
     animation: fade-in 4s 1;
 }
 
-.iconsAbout-text-home {
+.iconsHeader-text {
     width: 2.5em;
     height: 2.5em;
 }
 
-.iconsAbout-text-home:hover {
+.iconsHeader-text:hover {
     background-color: lightskyblue;
 }
 
